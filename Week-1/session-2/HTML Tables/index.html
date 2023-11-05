@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        .list-section {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!--1.  Create a table with 3 rows and 3 columns. 
+        The top row contains 1 cell that spans 3 columns. 
+        The leftmost cell on the next row spans 2 rows. 
+        All other cells span a single row and column. -->
+    <section>
+        <table>
+            <tr>
+                <!-- colspan for a table data takes/wraps into mentioned number of cells/columns -->
+                <td colspan="3">
+                    <h1>1</h1>
+                </td>
+            </tr>
+            <tr>
+                <!-- rowspan for a table data takes/wraps into mentioned number of rows -->
+                <td rowspan="2">
+                    <h1>2</h1>
+                </td>
+                <td>
+                    <h1>3</h1>
+                </td>
+                <td>
+                    <h1>4</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>5</h1>
+                </td>
+                <td>
+                    <h1>6</h1>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <!-- 2. The outer list is an order list, and the nested lists are unordered. -->
+    <section class="list-section">
+        <ol>
+            <li>
+                Desktop
+                <ul>
+                    <li>Linux</li>
+                    <li>Mac Os</li>
+                    <li>Windows</li>
+                </ul>
+            </li>
+            <li>Mobile
+                <ul>
+                    <li>Android</li>
+                    <li>iOS</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+</body>
+
+</html>
