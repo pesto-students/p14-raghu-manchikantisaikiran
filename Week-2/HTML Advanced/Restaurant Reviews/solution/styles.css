@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    width: 120px;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 8px;
+}
+
+main .restaurant-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.star-rating {
+    font-size: 24px;
+    display: inline-block;
+    background-clip: text;
+    -webkit-background-clip: text !important;
+    -moz-background-clip: text !important;
+    color: transparent;
+    background: linear-gradient(90deg, gold 100%, #ddd 50%);
+}
+
+.fill-93 {
+    background: linear-gradient(90deg, gold 93%, #ddd 50%);
+}
+
+.fill-90 {
+    background: linear-gradient(90deg, gold 90%, #ddd 50%);
+}
+
+.fill-80 {
+    background: linear-gradient(90deg, gold 80%, #ddd 50%);
+}
+
+.mapouter {
+    margin-top: 20px;
+}

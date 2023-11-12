@@ -1,0 +1,26 @@
+/* Resetting default CSS */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
